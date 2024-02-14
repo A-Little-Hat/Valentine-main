@@ -3,10 +3,10 @@ function getDeviceType() {
 
   if (/Windows/i.test(userAgent)) {
       return "Windows";
-  } else if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(userAgent)) {
-      return "Mobile";
+  // } else if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(userAgent)) {
+  //     return "Mobile";
   } else {
-      return "Other";
+      return "Mobile";
   }
 }
 
